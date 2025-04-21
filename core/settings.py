@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1z^5jipyheg*r4@3+eary-9!6-n=-te5urlq*r7uiqzhrpz&6g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['43.204.218.118']
 
 
 # Application definition
@@ -134,6 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://blogination-app-bucket.s3-website.ap-south-1.amazonaws.com/"
 ]
 
 CORS_ALLOW_CREDENTIALS = True
